@@ -32,7 +32,8 @@ public class Main {
                     sair = true;
                     break;    
             }
-        }         
+        }
+        scan.close();
     }
 
     public static void adicionar(Carro[] carros, Moto[] motos, Scanner scan){
